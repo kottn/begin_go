@@ -1,0 +1,2 @@
+# kickoff_go
+はじめてのgo
