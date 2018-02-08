@@ -41,7 +41,7 @@ go version
 
 * テストプログラム
 `hello_barabara.go`の中身はとってもバラバラ
-```
+```go
 package  main
 
 import     "fmt"
@@ -56,7 +56,7 @@ gofmt hello_barabara.go > hello.go
 cat hello.go
 ```
 結果
-```
+```go
 package main
 
 import "fmt"
