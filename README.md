@@ -5,13 +5,12 @@
 Debian 9
 
 ## インストール
-* 古いバージョンがある場合はgoディレクトリを削除
+* 古いバージョンがある場合はgoディレクトリを削除．`~/.profile`などに古い`$GOPATH`があったら消す．
 ```
 su -
 cd /usr/local
 rm -rf go
 ```
-`~/.profile`などに古い`$GOPATH`があったら消す
 
 * https://golang.org/dl/ にアクセス
 * Stable versions から`go*.linux-amd64.tar.gz`をダウンロード
@@ -34,7 +33,7 @@ export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$PATH
 ```
 
-* 確認
+* バージョン確認
 ```
 source ~/.profile
 go version
@@ -51,7 +50,7 @@ func main()    {
 fmt.Printf("hello, world\n")
 }
 ```
-`gofmt`コマンドがあればインデントのこだわりに悩まされない
+`gofmt`コマンドを使ってインデントのこだわりから開放される
 ```
 gofmt hello_barabara.go > hello.go
 cat hello.go
