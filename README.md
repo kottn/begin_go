@@ -8,8 +8,11 @@ Debian 9
 * 古いバージョンがある場合はgoディレクトリを削除
 ```
 su -
-rm -rf /usr/local/go
+cd /usr/local
+rm -rf go
 ```
+`~/.profile`などに古い`$GOPATH`があったら消す
+
 * https://golang.org/dl/ にアクセス
 * Stable versions から`go*.linux-amd64.tar.gz`をダウンロード
 * `/usr/local/go`に解凍
