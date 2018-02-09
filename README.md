@@ -1,5 +1,5 @@
 # kickoff_go
-:baby:はじめてのgo
+:baby: はじめてのgo
 
 ## 環境
 Debian 9
