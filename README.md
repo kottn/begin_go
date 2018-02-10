@@ -1,4 +1,4 @@
-# kickoff_go
+# begin_go
 :baby: はじめてのgo
 
 ## 環境
