@@ -1,5 +1,5 @@
 # begin_go
-:baby: はじめてのgo
+:beginner: はじめてのgo
 
 ## 環境
 Debian 9
